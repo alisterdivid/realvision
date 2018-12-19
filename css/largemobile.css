@@ -1,0 +1,556 @@
+/*********************************************
+        For Mobile and small device
+**********************************************/
+@media (min-width: 320px) and (max-width: 767px)
+{
+    .open-date {
+     display: block !important;
+     min-height:0px;
+     padding:20px;
+     font-size:13px;
+    }
+	.broker-logo-contact img {
+            width: auto;
+            max-width: 100%;
+            margin:0 auto;
+            float:none !important;
+        }
+        .contact-logo-height{
+            /*float: none;*/
+            margin:0 auto;
+            text-align:center;
+        }
+	#agent_main_slider .owl-stage-outer .item img {
+		height: 200px;
+	}
+    .top-fluid{
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+    .contact-form .checkbox .text{
+        line-height:26px !important;
+        font-size:18px !important;
+    }
+
+    .header-bottom ul li
+    {
+        border-right: 1px solid rgba(255,255,255,0.5);
+        padding-right:15px;
+        padding-left:15px;
+
+    }
+    .social-icons  li{
+        margin-left:0px; 
+        margin-bottom:20px; 
+    }
+    .social-icons ul{
+        margin-top:10px;
+        margin-bottom:0px; 
+        margin-left:-10px; 
+        text-align:center; 
+
+    }
+    .social-links-title{
+        text-align:center; 
+    }
+    .social-icons {
+        margin-left:0px; 
+    }
+    .property-text{
+        width:auto;
+    }
+    .property-text-left{
+        width:auto;
+    }
+    .property-text-right{
+        width:auto;
+    }
+    body.modal-open
+    {
+        overflow: hidden;
+    }
+    #myaccent_modal .modal-dialog
+    {
+        width: auto !important;
+        margin-top: 50%;
+        padding-right:0px !important; 
+
+    }
+    #myplan_modal .modal-dialog, #myplan2_modal .modal-dialog, #myplan3_modal .modal-dialog, #myplan4_modal .modal-dialog{
+        width: auto !important;
+        margin-top: 40%;
+        padding-right:0px !important; 
+
+    }
+    .modal-open .modal{
+        padding-right: 0px !important;
+    }
+    /*******************************************
+        Section 2 photopanel css starts here
+    *******************************************/
+   #sync1 .owl-item.active .item .overly{
+        webkit-transition: 0s !important;
+    -moz-transition:0s !important;
+    -ms-transition:  0s !important;
+    -o-transition:  0s !important;
+    transition: 0s  !important;
+    }
+    #sync1 .owl-item .item .overly{
+        opacity:0 !important;
+    }
+    #sync1 .owl-item.active{
+        background:transparent !important;
+    }
+    #section2 .dropdown.slider-dropdown .btn.btn-default
+    {
+        width: auto;
+    }
+    .galleria-theme-classic .galleria-stage  .galleria-images .galleria-image img/*added 11-9-2015*/
+    {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .requestfullscreen,
+    .exitfullscreen,
+    .galleria-play
+    {
+        z-index: 22 !important;
+    }
+    #section2 .dropdown.slider-dropdown .btn.btn-default{
+
+    }
+    .threed{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    /*******************************************
+        Section floor plan and map css
+    *******************************************/
+    #section4 .options
+    {
+        left: 0;
+        width: 100%;
+    }
+    #section5 .options
+    {
+        width: 95%;
+        margin:0 auto;
+        right:0;
+        left:0;
+    }
+
+    /*********************************************************
+            Agent Listing slider css
+    *********************************************************/
+    .slideWrap .owl-item .textArea .btn-blue
+    {
+        /*width: 98% !important;*/
+        font-size: 14px !important;
+    }
+
+    /*.owl-nav{
+        display: none;
+    }*/
+    .col-sm-6.col-xs-12.beds > p {
+        float: left;
+        text-align: left;
+        width: 26%;
+    }
+
+
+    /*******************************************
+        Header part css starts here
+    *******************************************/
+
+    .mobile-bg-image{
+        display:block;
+        position:relative; 
+    }
+	.mobile-bg-image1{
+        display:block;
+        position:relative; 
+    }
+	.mobile-bg-image1{
+        display:block;
+        position:relative; 
+    }
+    .logo
+    {
+        font-size: 19px;
+        margin-top: 12px;
+        display: inline-block;
+    }
+    .logo span
+    {
+        color: #2153b5;
+    }
+    .header-top .navbar-default .navbar-collapse
+    {
+        background: rgba(33,83,181,0.90);
+        margin: 0 -30px;
+        position: relative;
+        z-index: 999999;
+    }
+    .sticky-wrapper > .header-top
+    {
+        background: #fff !important;
+    }
+    .sticky-wrapper > .header-top .navbar-header .logo
+    {
+        color: #000;
+    }
+
+    .is-sticky .whitebg .navbar-default .navbar-collapse
+    {
+        background: rgba(33,83,181,0.90);
+    }
+    .header-top .navbar-default .navbar-collapse ul
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+        height:550px;
+        overflow:scroll !important;
+    }
+    .header-top .navbar-default .navbar-collapse ul li
+    {
+        border:1px solid rgba(255,255,255,0.30);
+    }
+    .sticky-wrapper.is-sticky > .whitebg.header-top .nav > li > a
+    {
+        color: #fff;
+    }
+    .header-top .navbar-default .navbar-collapse ul li a i
+    {
+        margin-top: -6px;
+    }
+    header .nav.navbar-nav.navbar-right li a
+    {
+        color: #fff;
+        font-size: 15px;
+    }
+    .header-bottom{
+        /* top: 110px;*/ /*140*/
+    }
+    .header-bottom .scroll-more{
+        margin-top: 10px;/*60*/
+    }
+    .header-bottom ul li
+    {
+        padding: 10px;
+    }
+    .sharing-buton
+    {
+        display: inline-block;
+        color: #fff;
+        background-color: #4178e1;
+        padding: 20px 35px;
+        font-family: 'latolight';
+        font-size: 15px;
+        margin: 18px auto;
+        border-radius: 5px;
+    }
+    .hidden-header .site-header > .header-top {
+        webkit-transform: translate(0,0);
+        -moz-transform: translate(0,0);
+        -ms-transform: translate(0,0);
+        -o-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+
+    .galleria-play{display:none;}
+
+    /*******************************************
+        Footer part css starts here
+    *******************************************/
+    .footer-left{
+
+        float: none;
+    }
+
+    .footer-left p
+    {
+        text-align: center;    
+    }
+
+    .footer-left ul
+    {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-left ul li
+    {
+        margin-bottom: 20px;
+        display:inline-block; 
+    }
+    .footer-left ul li:last-child
+    {
+        margin-right: 0;
+    }
+    .footer-right
+    {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    /*********************************************************
+            Agent info css
+    *********************************************************/
+    .agent-section{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .agent-block{
+        width:49%;
+        margin-top: 20px;
+    }
+    .agent-info{
+        margin:0 auto;
+        width:320px; 
+        padding-left:0px; 
+    }
+    .agent-section .social-link a {
+        margin-left: -2px;
+    }
+    .agent-section .presentator-name{
+        font-size:15.87px; 
+    }
+    .agent-section .presentator-properties{
+        font-size:13.87px; 
+    }
+    .agent-section .presentator-no{
+        font-size: 13.87px;
+    }
+    .agent-section .presentators-block{
+        margin-top:0px;
+        padding-top: 0px;
+        padding-left:0px !important;
+        padding-right:0px !important; 
+    }
+    .presentators-block p{
+        margin-bottom:0px; 
+    }
+    .social-link{
+        margin-top:5px; 
+    }
+    .property-text{
+        font-size: 22px;
+        display:none;
+    }
+    .property-text-left{
+        font-size: 22px;
+        margin-left:0px;
+        display:none;
+    }
+    .property-text-right{
+        font-size: 22px;
+        margin-right:0px;
+        display:none;
+    }
+    .property-address {
+        font-size: 13px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin: 20px auto;
+        float: none !important;
+        text-align: left;
+        display:inline-block;
+    }   
+    .property-block{
+        margin:0 auto;
+        padding-left:0px !important;
+        width:300px !important;
+        float: none;
+    }
+    .parallax1,.parallax2,.parallax3{
+        padding-top:50px;
+        display:none;
+    }
+    .property-logo{
+        width:100% !important;
+    }
+    .parallax4{
+        padding-bottom:0px;
+        padding-top:0px;
+    }
+    .social-icons ul{
+        margin-top:30px;
+        margin-left:0px; 
+    }
+    .social-link-block .block{
+        margin-top:30px;  
+		float:left;
+		display:block;
+		width:100%;
+    }
+    .show-btn-new{
+        display:inline-block;   
+    }
+    .show-btn-first{
+        display:none !important;
+    }
+	
+	
+.address-loader h1{
+    font-size: 25px;
+    line-height: 20px;
+}
+.address-loader h2{
+    margin-top: 0;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) and (orientation) and (orientation:landscape){
+    #myplan_modal .modal-dialog, #myplan2_modal .modal-dialog, #myplan3_modal .modal-dialog, #myplan4_modal .modal-dialog{
+        margin-top:1%;
+    }
+    #myproperty_modal .modal-dialog{
+        margin-top:1%;
+    }
+    #myaccent_modal .modal-dialog{
+        margin-top: 1%;
+    }
+    #myplan_modal .modal-content, 
+    #myplan2_modal .modal-content, 
+    #myplan3_modal .modal-content, 
+    #myplan4_modal .modal-content,
+    #myproperty_modal .modal-content,
+    #myaccent_modal .modal-content{
+        width:80%;
+    }
+}
+/*********************************************************
+         Property Photos css
+ *********************************************************/
+
+@media (max-width: 480px) and (min-width: 321px){
+
+    .galleria-container, #galleria {
+        height: 359px!important;
+    } 
+
+}
+
+/***************************************************************
+        Footer css here
+***************************************************************/
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+
+    .footer-left ul li a
+    {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479px)
+{
+    .footer-left ul li
+    {
+        margin-right: 0;
+    }
+    /*******************************************************
+        Propery Photo section2 css 
+    *******************************************************/
+    .slider-dropdown
+    {
+        bottom: 133px;
+    }
+
+}
+
+/*********************************************************
+     agent css
+*********************************************************/
+@media (min-width: 481px) and (max-width: 767px){
+    .agent-block {
+        width:45%;
+    }
+    .img-block{
+        margin-top:15px;
+    }	
+    .home-info-content .item-info .item-content{
+        width:100px;
+    }
+    /***************************************************************
+Footer css here
+***************************************************************/
+    footer > .container
+    {
+        width: 78%;
+    }
+
+}
+@media (max-width: 1024px)
+{
+    #tab-dropdown-map{
+        margin-bottom:70px; 
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .mobile-bg-image{
+        display:block;
+        position:absolute; 
+    }
+	.mobile-bg-image1{
+        display:block;
+        position:absolute; 
+    }
+    .map-tabs{
+        padding-left:35px;
+        padding-right:35px; 
+    }
+    .tab-panel-map{
+        padding-left:35px;  
+        padding-right:35px; 
+    }
+    .hd-icon:hover .hd-icon-img{
+        -webkit-animation-name:w;
+        animation-name:w;
+    }
+    .img-block:hover{
+        outline:none; 
+    }
+    .property-image .img-block:hover .simple-caption{
+        opacity: 0;
+        transform:translateY(0%)
+    }
+    .property-image .img-block .simple-caption{
+        -webkit-transition: all 0ms ease-out;
+        -moz-transition: all 0ms ease-out;
+        -o-transition: all 0ms ease-out;
+        -ms-transition: all 0ms ease-out;
+        transition: all 0ms ease-out;
+    }
+
+}
+@media (min-width: 1024px){
+    #myplan_modal .modal-dialog,#myplan2_modal .modal-dialog,#myplan3_modal .modal-dialog,#myplan4_modal .modal-dialog,
+    #myplan_modal2.modal-dialog{
+        width: 100% !important;
+    }
+    #myaccent_modal .image-nav{
+        display: none;
+    }
+    #myaccent_modal .left-btn i,#myaccent_modal .right-btn i,#myproperty_modal .left-btn i,#myproperty_modal .right-btn i,
+    #myplan_modal2 .left-btn i,#myplan_modal2 .right-btn i{
+        font-size:100px;
+    } 
+    #myaccent_modal .left-btn,#myaccent_modal .right-btn,#myplan_modal2 .left-btn,#myplan_modal2 .right-btn{
+        background:none; 
+        bottom:45%;
+        padding:0px; 
+    }
+    #myaccent_modal .close,  #myplan_modal2 .close{
+        background: none !important;
+    }
+    #myaccent_modal .modal-dialog,#myplan_modal2 .modal-dialog{
+        width:100%;
+    }
+}

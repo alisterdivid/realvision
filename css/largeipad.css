@@ -1,0 +1,476 @@
+/*********************************************
+        For Ipad and medium device
+**********************************************/
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+    .broker-logo-contact img{
+        height:auto !important;
+        -webkit-transform:translateY(0%);
+        transform:translateY(0%);
+
+    }
+    .tab-panel li{
+        width:auto;
+        display:inline-block;
+    }
+    .tab-panel{
+        text-align:center;
+    }
+   
+	/* Agent Listing css*/
+	.slideWrap .owl-item .beds {
+		text-align: right;
+		padding: 0px;
+	}
+    /* 3D section overlay-image css*/
+    .overlay-image{
+        height:500px;
+    }
+    
+     .Home-image{
+        min-height:230px !important;
+        margin-bottom:54px;
+    }
+    .content-white{
+
+    }
+    .more-info-location{
+        font-size:28px; 
+    }
+    .parallax4,.parallax3,.parallax2,.parallax1{
+        background-attachment:scroll !important;  
+        transition: background-position 0.5s ease;
+        -webkit-transition: background-position 0.5s ease;
+        -o-transition: background-position 0.5s ease;
+        -moz-transition: background-position 0.5s ease;
+    }
+    .social-icons{
+        margin-left:0px;     
+    }
+    .Extra-info{
+        font-size: 25px;
+    }
+    /*******************************************
+        Header part css starts here
+    *******************************************/
+    .logo
+    {
+        font-size: 18px;
+        margin-top: 12px;
+        display: inline-block;
+    }
+    .logo span
+    {
+        color: #2153b5;
+    }
+    header .nav.navbar-nav.navbar-right li a
+    {
+        padding-right: 9px;
+        padding-left: 30px;/*9px*/
+    }
+    .menu-border{
+        margin-top: 14px; 
+        margin-left:0px;
+        margin-bottom:0px;
+    }
+    .sticky-wrapper > .header-top
+    {
+        background: #fff !important;
+    }
+    .sticky-wrapper > .header-top .navbar-header .logo
+    {
+        color: #000;
+    }
+    /*header .nav.navbar-nav.navbar-right li a
+    {
+        color: #000;
+    }*/
+    #video-wrap{
+        display: none; 
+    }
+
+    .header-bottom
+    {
+
+        /* top: 0px;*/
+    }
+    .header-bottom .scroll-more
+    {
+        margin-top: 100px;
+    }
+
+    body.modal-open
+    {
+        overflow: hidden;
+    }
+
+    /*******************************************
+        Menu css starts here
+    *******************************************/
+
+    header .nav.navbar-nav.navbar-right li.menu-border
+    {
+        display:none; 
+    }
+    header .nav.navbar-nav.navbar-right li a:hover{ 
+        margin-top:0px
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .logo
+    {
+        font-size: 19px;
+        margin-top: 12px;
+        display: inline-block;
+    }
+    .logo span
+    {
+        color: #2153b5;
+    }
+    .header-top .navbar-default .navbar-collapse
+    {
+        background: rgba(33,83,181,0.90);
+        margin: 0 -30px;
+        position: relative;
+        z-index: 999999;
+    }
+    .sticky-wrapper > .header-top
+    {
+        background: #fff !important;
+    }
+    .sticky-wrapper > .header-top .navbar-header .logo
+    {
+        color: #000;
+    }
+
+    .is-sticky .whitebg .navbar-default .navbar-collapse
+    {
+        background: rgba(33,83,181,0.90);
+    }
+    .header-top .navbar-default .navbar-collapse ul
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .header-top .navbar-default .navbar-collapse ul li
+    {
+        border:1px solid rgba(255,255,255,0.30);
+    }
+    .sticky-wrapper.is-sticky > .whitebg.header-top .nav > li > a
+    {
+        color: #fff;
+    }
+    .header-top .navbar-default .navbar-collapse ul li a i
+    {
+        margin-top: -6px;
+        margin-right:15px;
+    }
+    #nav .navbar-header .navbar-toggle{
+        margin-right:-20px !important;
+    }
+    .share-top{
+        display:block !important; 
+    }
+    .header-top .navbar-default .navbar-collapse ul li a i{
+        display:block 
+    }
+    header .nav.navbar-nav.navbar-right li a
+    {
+        color: #fff;
+        font-size: 15px;
+    }
+    .sharing-buton
+    {
+        display: inline-block;
+        color: #fff;
+        background-color: #4178e1;
+        padding: 20px 35px;
+        font-family: 'latolight';
+        font-size: 15px;
+        margin: 18px auto;
+        border-radius: 5px;
+    }
+    header .nav.navbar-nav.navbar-right {
+        margin-left: -15px;
+    }
+
+    .top_share{
+        display:none;
+    }
+
+    /*********************************************
+           Home info css
+   **********************************************/
+    .home-info-content .home-item{
+        font-size: 15px !important;
+    }
+    .home-info-content .item-info{
+        font-size:15px !important; 
+    }
+    .home-info-content .item-info .item-content{
+        font-size: 15px !important;
+        width:50px !important; 
+    }
+    /*********************************************************
+           Agent info css
+   *********************************************************/
+    .agent-block{
+        width: 24%;/*32%*/
+        worde-wrap: break-word;
+        margin-top:20px;
+    }
+    .property-logo.agent-block{
+        width:100%;
+    }
+    .agent-container .property-logo {
+    text-align: center;
+    width: 90% !important;
+    height: auto !important;
+}
+.broker_logo {
+    margin: 0 auto;
+    max-width: 440px;
+    transform: inherit;
+    -webkit-transform: inherit;
+    top: 0px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}    .presentator-no
+    {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .presentator-name
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .agent-section .presentator-name{
+        font-size:17px; 
+    }
+    .agent-section .presentator-properties{
+        font-size:17px; 
+    }
+    .agent-section .presentator-no{
+        font-size: 17px;
+    }
+    .social-link{
+        margin-top:5px; 
+    }
+    .property-text{
+        font-size: 22px;
+        width:50%;
+    }
+    .property-text-right {
+        width:50%;
+    }
+    .property-text-left{
+        font-size: 22px;
+        margin-left:0px;
+        width:50%;
+    }
+    .property-address{
+        font-size: 13px;    
+        margin-bottom:30px; 
+        /*margin-left:50px;*/
+    }
+    .property-block{
+        margin:0 auto;
+        padding-left:15px 
+    }
+
+    .agent-section .presentators-block p{
+        margin-bottom:0px;
+    }
+    .presentators-block{
+        padding-top:10px;
+    }
+
+    .Extra-info h4{
+        font-size: 24px;   
+    }
+    /*********************************************************
+        Agent Listing slider css
+*********************************************************/
+    /*.slideWrap .owl-item .textArea .btn-blue
+    {
+            width: 98%;
+    }*/
+
+    /*******************************************
+        Section floor plan and map css
+    *******************************************/
+    .Home-page{
+        min-height:230px !important;
+    }
+    
+    #section4 .options
+    {
+        left: 0;
+        width: 100%;
+    }
+    #section5 .options
+    {
+        right: 15px;
+        left: 15px;
+        width: auto;
+    }
+    .plan-block {
+        position: relative;
+        margin: 0px 0;
+    }
+    /*********************************************************
+             Property Photos css
+    *********************************************************/
+    .galleria-theme-classic .galleria-stage .galleria-images .galleria-image img {
+        height: 100% !important;
+        width: 100% !important;
+        left: 0 !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:landscape){
+    .contact-form .checkbox .text {
+        line-height: 25px !important;
+    }
+    .Home-image{
+        min-height:310px !important;
+        margin-bottom:74px;
+    }
+}
+.requestfullscreen,  .exitfullscreen,   .galleria-play
+{
+    z-index: 22 !important;
+}
+#section2 .dropdown.slider-dropdown .btn.btn-default{
+    /*    width:105% !important;*/
+}
+
+/*********************************************************
+         Property Photos css
+ *********************************************************/
+@media (max-width: 1280px) and (min-width: 1025px) {
+
+    .galleria-container, #galleria {
+        height: 726px!important;
+    } 
+
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+
+    .galleria-container, #galleria {
+        height: 618px!important;
+    } 
+
+}
+@media (min-width: 1280px)
+{
+    .galleria-theme-classic .galleria-stage  .galleria-images .galleria-image img/*added 11-9-2015*/
+    {
+        width: 100% !important;
+        height: auto !important;/*height: 100% !important;*/
+    }
+}
+@media (max-width: 1024px) {
+    .overlay-image{
+        display:block;
+    }
+    #slider-show{
+        display:none !important;
+    }
+    #loading-overlay #loader {
+        padding-top: 45px; /*27-1-16*/
+    }
+
+   .threed {
+        height:0px !important;
+        padding:0px;
+    }
+    header{
+        z-index:9;
+        position:relative;
+    }
+    .social-link img{
+        height:30px;
+        width:30px;
+    }
+    .contact-form .checkbox .text{
+        font-size: 18px;
+        line-height: 18px;
+        /*margin-top:11px;
+        margin-left:10px;*/
+    }
+    .contact-form .checkbox input{
+        width:18px;
+        height:18px;
+    }
+    .agent-section  .agent-info img.agent-pic{
+        width:100%;
+    }
+    .parallax4,.parallax3,.parallax2,.parallax1{
+        background-attachment:scroll !important;  
+		background-size:cover !important;
+		background-position:left center !important;
+    }
+
+    .attachment-block:hover .attachment-img {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+    .scrollup:hover .scroll-arrow{
+        top:12px;
+    }
+    .header-bottom{
+        /*position: absolute;   */
+        /* margin-top:20%;*/
+    }
+}
+@media (min-width: 1025px) {
+    .hd-icon-img:hover{
+        -webkit-animation-name: hvr-wobble-horizontal;
+        animation-name: hvr-wobble-horizontal;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+    }
+}

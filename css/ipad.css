@@ -1,0 +1,21 @@
+/*********************************************
+        For Ipad and medium device
+**********************************************/
+@media (min-width: 768px) and (max-width: 992px)
+{
+    
+}
+
+
+    /*********************************************************
+             Property Photos css
+     *********************************************************/
+
+	@media (max-width: 768px) and (min-width: 481px) {
+
+        .galleria-container, #galleria {
+            height: 510px!important;
+        } 
+
+	}
+	

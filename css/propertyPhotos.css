@@ -1,0 +1,208 @@
+.propertyPhotosWrap{
+	position:relative;
+}
+#galleria{
+	height:600px;
+    width: 100%;
+    position: relative;
+}
+/*@media (min-width: 770px) and (max-width: 1260px){
+    body{
+        border: 1px solid #f00;
+    }
+    .galleria-container, #galleria{
+        height: 504px !important;
+    }
+}*/
+.requestfullscreen,
+.exitfullscreen{
+	background: url(../images/sprite-control.png) no-repeat;
+	padding: 10px 10px;
+	position: absolute;
+	bottom: 139px;
+	z-index: 9999;
+	right: 40px;
+}
+.requestfullscreen{background-position: -66px 0;}
+.exitfullscreen{background-position: -99px 0;}
+
+/*- Galleria Classic css overwrite -*/
+.galleria-theme-classic{background:#fff;}
+.galleria-theme-classic .galleria-stage {
+    top: 0px;
+    left: 0px;
+	right:0px;
+	bottom:116px;
+}
+
+#next,
+#prev,
+.galleria-theme-classic .galleria-info-link,
+.galleria-theme-classic .galleria-info-close,
+.galleria-theme-classic .galleria-image-nav-left,
+.galleria-theme-classic .galleria-image-nav-right{
+    background-image: url(../images/classic-map.png);
+    background-repeat: no-repeat;
+}
+
+.galleria-theme-classic .galleria-loader {
+    background: url(../images/classic-loader.gif) no-repeat 2px 2px;
+}
+
+.galleria-theme-classic .galleria-thumbnails-container{height:116px !important;}
+.galleria-theme-classic .galleria-thumbnails .galleria-image{
+	margin:0;
+	height:116px !important;
+	border:1px solid #fff;
+}
+.galleria-theme-classic .galleria-carousel .galleria-thumbnails-list{
+    margin-left: 32px;
+    margin-right: 32px;
+    height: 116px;
+}
+.galleria-theme-classic .galleria-thumbnails .galleria-image img{opacity:1 !important;}
+.galleria-theme-classic .galleria-thumbnails .galleria-image + .galleria-image{
+	border-left:0;
+}
+.galleria-theme-classic .galleria-thumbnails .galleria-image.active + .galleria-image{
+	border-left:1px solid #fff;
+}
+.galleria-theme-classic .galleria-thumbnails .galleria-image.active{
+	border:5px solid #3c9eff;
+}
+.galleria-theme-classic .galleria-thumbnails-container{
+	left:0;
+	right:0;
+	height:116px;
+	bottom: 0px;/*added 11-9-2015*/
+}
+
+.galleria-theme-classic .galleria-thumb-nav-left,
+.galleria-theme-classic .galleria-thumb-nav-right{
+}
+
+#next,#prev{
+    height:116px;
+	width:32px;
+    background-color: #03f !important;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+}
+#next{
+	background-position: -566px 20px;
+    right: 0;
+}
+#prev{
+    background-position: -497px 20px;
+    left: 0;
+}
+
+.galleria-theme-classic .galleria-info-link {
+    background-position: -667px -29px;
+    background-color: transparent;
+	height:23px;
+	width:23px;
+	opacity:1;
+	left: -17px;
+}
+.galleria-theme-classic .galleria-info{
+	right: 105px;
+    bottom: 159px;
+	width: auto;
+    top: auto;
+    left: auto;
+}
+.galleria-theme-classic .galleria-info-close{
+	background-position: -753px -35px;
+}
+.galleria-play {
+	text-indent: -10000px;
+	background: url(../images/sprite-control.png) no-repeat;
+	position: absolute;
+	bottom:20px;
+	z-index: 29;/*99999*/
+	padding: 1px 10px;
+	right: 69px;
+	background-position: 1px 0;
+	cursor:pointer;
+}			
+.galleria-play.playing{
+	background-position: -33px 0;
+}
+/*- Bootstrap ToolTip-*/
+#fullscreen > [data-toggle="tooltip"] + .tooltip > .tooltip-inner {background-color: #fff; color:#000; white-space:nowrap;}
+#fullscreen > [data-toggle="tooltip"] + .tooltip > .tooltip-arrow { border-top-color:#fff; left:80% !important;}
+
+/*- ThumbScroll css overwrite -*/
+.mCSB_scrollTools{opacity: 1;}
+.mCSB_horizontal.mCSB_inside > .mCSB_container{
+    margin-bottom: 0;
+}
+.mCSB_scrollTools .mCSB_draggerContainer{
+    background: url(../images/thumb-scroll-bg.png) top left repeat;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail{
+    margin: 10px auto;
+    width: 99%;
+    height: 5px;
+    background-color: #fff;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal{
+    height: 26px;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{
+    height: 12px;
+    width: 84%;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger{width: 5% !important;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
+.mCS-masonwood.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+    background-color: #4ca1f5;
+}
+.tooltip.top {
+	display: block!important;
+}
+
+
+
+
+.propertyModal .modal-content{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+.propertyModal .modal-content .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    opacity: 1;
+}
+.propertyModal .carousel-inner{
+    margin-top: 3%;
+}
+.propertyModal .carousel-control{
+    background-image: none;
+    opacity: 1;
+    top: 50%;
+    margin-top: -25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

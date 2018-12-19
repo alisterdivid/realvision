@@ -1,0 +1,334 @@
+/*********************************************
+        For Mobile and small device
+**********************************************/
+@media (min-width: 320px) and (max-width: 480px)
+{
+	.videoWrapper { padding-bottom:70%!important; }
+	.section_icon_container { width:100%!important; max-width:none!important; }
+	.section_icon_container .icon_container {
+     float: none!important;
+	 text-align:center!important;
+	 margin-right: 0px!important;
+	}
+    .lm-content{
+        height:100px;
+    }
+    .parallax4,.parallax3,.parallax2,.parallax1{
+        background-attachment:scroll !important;  
+    }
+    /*********************************************
+           Remove rollover effects on mobile 
+    **********************************************/
+
+    .hd-icon:hover .hd-icon-img{
+        -webkit-animation-name:hvr;
+        animation-name:hvr;
+    }
+
+    .scrollup {
+        bottom:10%; 
+    }
+
+    /*********************************************************
+              Header section css 
+    *********************************************************/
+    .header-top .navbar-default .navbar-collapse ul li a i{
+        display:block 
+    }
+    header .nav.navbar-nav.navbar-right li a:hover{ 
+        margin-top:0px
+    }
+
+    .home-no{
+        display:block; 
+    }
+    .header-bottom h1 {
+        font-size: 38px;
+        line-height: 35px;
+    }
+    .header-bottom h2{
+        font-size:25.8px;
+    }
+
+    /*********************************************************
+              Property video section css 
+    *********************************************************/
+    .content-white{
+        margin-top:0px;
+    }
+    .property-image{
+        margin-right: 10px;
+    }
+    .property-image .img-block .simple-caption{
+        padding-top:0px;
+    }
+    .property-block{
+        width:auto;
+    }
+    .section-header h2{
+        font-size: 26.01px;
+    }
+    .course-title{
+        font-size: 20px;
+        padding-top:40px;
+
+    }
+    .course-desc{
+        font-size: 14px;
+        padding:0px 15px 0px 15px; 
+    }
+    .section-header {
+        margin-bottom:30px;
+        margin-top: 30px;
+    }
+    .property-info .numbers{
+        font-size: 26px;
+    }
+    .property-info .item{
+        font-size: 14px;
+    }
+    .property-info{
+        min-height:108px; 
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+    .more-info h2{
+        font-size:25px; 
+    }
+    .more-info-location{
+        font-size:16.55px; 
+    }
+    .more-info-price{
+        font-size:25px; 
+    }
+    .presentators{ 
+        margin: 0 auto 30px;
+    }
+    .presentators-title{
+        font-size: 20px;
+    }
+    .presentator-name{
+        font-size: 15.88px;
+        margin-bottom:0px;
+    }
+    .presentator-properties{
+        font-size: 14.5px;
+        margin-bottom:0px;
+
+    }
+    .presentator-no{
+        font-size: 13.81px;
+        margin-bottom:0px;
+
+    }
+    /*********************************************
+            Home info css
+    **********************************************/
+    .home-info-content .home-item{
+        font-size: 15px;
+    }
+    .home-info-content .item-info{
+        font-size:15px; 
+    }
+    .home-info-content .item-info .item-content{
+        font-size: 15px;
+        width:50px; 
+    }
+    /*********************************************
+           PROPERTY SECTION CSS
+    **********************************************/
+
+    .property-image  .img-block 
+    {
+        margin-top:15px; 
+    }
+    .property-image{
+        margin-top:30px;
+    }
+    .property-text{
+        padding-left:0px; 
+        text-align:center; 
+    }
+
+    /*********************************************
+          Floor Plan Tour SECTION CSS
+    **********************************************/
+    .tab_top_bg{
+        margin-bottom:40px;
+    }
+    .tab-content img{
+        margin-top:30px; 
+    }
+    .hr-line{
+        position: relative;
+        margin-top:60px;
+        z-index: -99;
+    }
+    .tab-content{
+        padding-top:0px;    
+		height : 350px;
+    }
+    .button-option{
+        margin-top:70px; 
+    }
+
+    /*********************************************************
+              footer css 
+    *********************************************************/
+
+    .footer-left ul li{
+        width:38px;
+    }
+    /*********************************************************
+              Contact form css 
+    *********************************************************/
+    .contact-form{
+        background:#636266;
+        padding:35px 15px 35px 15px; 
+    }
+    #section-image-contact{
+        padding-top:50px; 
+        padding-bottom:30px; 
+    }
+    /*********************************************************
+              Social links css 
+    *********************************************************/
+    .social-icons  li{
+        margin-left:0px; 
+        margin-bottom:20px; 
+    }
+    .social-icons ul{
+        margin-top:10px;
+        margin-bottom:0px; 
+        margin-left:-10px; 
+        text-align:center; 
+    }
+    .social-links-title{
+        text-align:center; 
+    }
+    .social-icons {
+        margin-left:0px; 
+    }
+    #section-image-contact .block{
+        margin-bottom:60px; 
+
+    }
+    #section-image-contact{
+        padding-top:70px; 
+    }
+    .social-icons ul{
+        margin-top:30px;
+        margin-left:0px; 
+    }
+    .social-link-block .block{
+        margin-top:30px;  
+    }
+	p.exp { padding-top:18px!important; }
+
+    /*********************************************************
+             Property map  css
+     *********************************************************/
+ 
+    .map-tabs{
+        height:450px;
+        overflow:hidden;
+		padding-left: 1px!important;
+    padding-right: 1px!important;
+    }
+
+
+    /*********************************************************
+            Property Photo css
+    *********************************************************/
+    .slider-dropdown{
+        left:8px;
+
+        .slider-dropdown ul{
+        width:225px;
+    }
+
+
+}
+}
+/*********************************************************
+        Property Photos css
+*********************************************************/
+
+@media (max-width: 320px){
+
+    .galleria-container, #galleria {
+        height: 286px!important;
+    } 
+
+}
+@media (min-width: 320px) and (max-width: 640px)
+{
+    header{
+        background:white;
+        z-index:1;
+    }
+    .content-white{
+        z-index:2;
+        padding-top:20px;
+    }
+
+}
+
+@media (max-width: 767px)
+{
+    .header-bottom h1 {
+        font-size: 25px !important;
+        line-height: 30px !important;
+        font-weight:600;
+
+    }
+    .header-bottom h2{
+        font-size: 25px !important;
+        line-height: 30px !important;
+        font-weight:600;
+
+    }
+    .header-bottom{
+        transform: translateY(-46%);
+        -ms-transform: translateY(-46%);
+        -webkit-transform: translateY(-46%);
+        -o-transform: translateY(-46%);
+    }
+    .header-bottom .scroll-more{
+        margin-top:10px;
+    }
+    .home-no {
+      display: block;
+    }
+    .more-info .home-no{
+       font-size:25px;
+       font-weight: normal;
+       font-style: normal;
+    }
+    .broker-logo-contact{
+        margin-top:30px;
+    }
+}
+@media (max-width: 767px) and (orientation:landscape){
+.header-bottom h1 {
+        font-size: 17px !important;
+        line-height: 17px !important;
+    }
+    .header-bottom h2{
+        font-size: 17px !important;
+        line-height: 17px !important;
+
+    }
+    .header-bottom img.hd-icon-img{
+        height:40px;
+    }
+    #map,#Google_Street_View iframe,#Bing_Maps{
+        height:260px;
+    }
+     .header-bottom{
+        transform: translateY(-74%);
+        -ms-transform: translateY(-74%);
+        -webkit-transform: translateY(-74%);
+        -o-transform: translateY(-74%);
+    }
+}

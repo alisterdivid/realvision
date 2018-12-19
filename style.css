@@ -1,0 +1,896 @@
+/*
+
+
+
+Theme Name: Real Vision
+
+
+
+Theme URI: http://realvision.ca/
+
+
+
+Author: Hitesh Prajapati
+
+
+
+Author URI: http://www.siliconinfosoft.com/
+
+
+
+Description: Real Vision Theme old
+
+
+
+Version: 1.6
+
+
+
+License: GNU General Public License v2 or later
+
+
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+
+
+
+
+
+This theme, like WordPress, is licensed under the GPL.
+
+
+
+Use it to make something cool, have fun, and share what you've learned with others.
+
+
+
+*/
+
+
+
+
+
+
+
+   
+
+
+
+html{
+
+
+
+    overflow-y: hidden;
+
+
+
+}
+
+
+
+
+
+
+
+.flex-direction-nav li {
+
+
+
+  /*position: absolute;*/
+
+
+
+  height: 10%;
+
+
+
+  width: 40px;
+
+
+
+  background: #2a87c5 none repeat scroll 0 0;
+
+
+
+    border-radius: 50%;
+
+
+
+  /*top: 0;*/
+
+
+
+}
+
+
+
+#gui-thumb { background-size:auto 102%!important; }
+
+
+
+ 
+
+
+
+.flex-direction-nav li:first-child {
+
+
+
+  /*left: 0;*/
+
+
+
+}
+
+
+
+ 
+
+
+
+.flex-direction-nav li:last-child {
+
+
+
+  /*right: 0;*/
+
+
+
+}
+
+
+
+ 
+
+
+
+.flex-direction-nav li a {
+
+
+
+  display: block;
+
+
+
+  height: 100%;
+
+
+
+  width: 100%;
+
+
+
+ 
+
+
+
+  /* image replacement */
+
+
+
+  overflow: hidden;
+
+
+
+  text-indent: 100%;
+
+
+
+  white-space: nowrap;
+
+
+
+ 
+
+
+
+  transition: background-color 0.2s;
+
+
+
+}
+
+
+
+ 
+
+
+
+.flex-direction-nav li a::before, .flex-direction-nav li a::after {
+
+
+
+  /* left and right arrows in css only */
+
+
+
+  content: '';
+
+
+
+  position: absolute;
+
+
+
+  left: 47%;
+
+
+
+  top: 110%;
+
+
+
+  width: 2px;
+
+
+
+  height: 13px;
+
+
+
+  background-color: white;
+
+
+
+}
+
+
+
+ 
+
+
+
+.flex-direction-nav li a::before {
+
+
+
+  transform: translateY(-35px) rotate(45deg);
+
+
+
+}
+
+
+
+ 
+
+
+
+.flex-direction-nav li a::after {
+
+
+
+  transform: translateY(-27px) rotate(-45deg);
+
+
+
+}
+
+
+
+ 
+
+
+
+.flex-direction-nav li:last-child a::before {
+
+
+
+  transform: translateY(-35px) rotate(-45deg);
+
+
+
+}
+
+
+
+ 
+
+
+
+.flex-direction-nav li:last-child a::after {
+
+
+
+  transform: translateY(-27px) rotate(45deg);
+
+
+
+}
+
+
+
+/*#owl-demo .item{
+
+
+
+  margin: 3px;
+
+
+
+}
+
+
+
+#owl-demo .item img{
+
+
+
+  display: block;
+
+
+
+  width: 100%;
+
+
+
+  height: auto;
+
+
+
+}*/
+
+
+
+
+
+
+
+@media all and (-ms-high-contrast:none)
+
+
+
+{
+
+
+
+    #my-video { 
+
+
+
+        min-width: 100% !important;
+
+
+
+        min-height: 100% !important;
+
+
+
+        width: auto !important;
+
+
+
+        height: auto !important;
+
+
+
+        /*top: 50% !important;
+
+
+
+        left: 50% !important;*/
+
+
+
+        transform: translateX(0%) translateY(0%) !important; 
+
+
+
+        webkit-transform: translateX(0%) translateY(0%) !important; 
+
+
+
+        -moz-transform: translateX(0%) translateY(0%) !important; 
+
+
+
+        -ms-transform: translateX(0%) translateY(0%) !important; 
+
+
+
+        -o-transform: translateX(0%) translateY(0%) !important; 
+
+
+
+
+
+
+
+        z-index: -100;
+
+
+
+    } /* IE10 */
+
+
+
+    .main-slide-control{
+
+
+
+        padding-bottom: 0;
+
+
+
+    }/* IE10 */
+
+
+
+    *::-ms-backdrop, #my-video { 
+
+
+
+        min-width: 100% !important;
+
+
+
+        min-height: 100% !important;
+
+
+
+        width: auto !important; 
+
+
+
+        height: auto !important;
+
+
+
+        /*top: 50% !important;caret pull-right
+
+
+
+        left: 50% !important;*/
+
+
+
+        transform: translateX(0%) translateY(0%) !important; 
+
+
+
+        webkit-transform: translateX(0%) translateY(0%) !important; 
+
+
+
+        -moz-transform: translateX(0%) translateY(0%) !important; 
+
+
+
+        -ms-transform: translateX(0%) translateY(0%) !important; 
+
+
+
+        -o-transform: translateX(0%) translateY(0%) !important; 
+
+
+
+        z-index: -100;
+
+
+
+    } /* IE11 */
+
+
+
+    *::-ms-backdrop, .main-slide-control{
+
+
+
+        padding-bottom: 0;
+
+
+
+    }/* IE11 */
+
+
+
+
+
+
+
+    *::-ms-backdrop,#sync1 .owl-item .item{
+
+
+
+        /*height:615px !important;*/
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.scrolloff{
+
+
+
+   pointer-events: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.parallax1 {background: url('background/img/106988/www_xl/001_4420_Camley_Way_106988_153761.jpg')  50% 0 fixed ;background-size: cover !important;background-position: center center; only for IPAD and mobile devices}            #slider-show .carousel-inner .img1{background:url('<?php echo get_template_directory_uri();?>/background/img/106988/www_xl/001_4420_Camley_Way_106988_153761.jpg');    background-size: cover;  background-position: center center;}
+
+
+
+.parallax2 {background: url('background/img/106988/www_xl/007_4420_Camley_Way_106988_153761.jpg')  50% 0 fixed ;background-size: cover !important;background-position: center center; only for IPAD and mobile devices}            #slider-show .carousel-inner .img2{background:url('<?php echo get_template_directory_uri();?>/background/img/106988/www_xl/001_4420_Camley_Way_106988_153761.jpg');    background-size: cover;  background-position: center center;}
+
+
+
+.parallax3 {background: url('background/img/106988/www_xl/015_4420_Camley_Way_106988_153761.jpg')  50% 0 fixed ;background-size: cover !important;background-position: center center; only for IPAD and mobile devices}            #slider-show .carousel-inner .img3{background:url('<?php echo get_template_directory_uri();?>/background/img/106988/www_xl/007_4420_Camley_Way_106988_153761.jpg');    background-size: cover;  background-position: center center;}
+
+
+
+.parallax4 {background: url('images/slider02.jpg')  50% 0 fixed ;background-size: cover !important;background-position: center center; only for IPAD and mobile devices}            #slider-show .carousel-inner .img4{background:url('<?php echo get_template_directory_uri();?>/background/img/106988/www_xl/015_4420_Camley_Way_106988_153761.jpg');    background-size: cover;  background-position: center center;}
+
+
+
+.mobile-bg-image { background-image:url('images/top-video-bg.jpg'); }
+.mobile-bg-image1 { background-image:url('http://realvision.ca/26livingstonunit140-nonbranded/wp-content/uploads/sites/5/2016/10/slider-photo2.jpgsssss'); }
+
+
+
+
+.parallax3 {
+
+
+
+	background-attachment: fixed;
+
+
+
+	background-clip: border-box;
+
+
+
+	background-color: rgba(0, 0, 0, 0);
+
+
+
+	background-image: url("background/img/106988/www_xl/015_4420_Camley_Way_106988_153761.jpg");
+
+
+
+	background-origin: padding-box;
+
+
+
+	background-repeat: repeat;
+
+
+
+	background-size: cover !important;
+
+
+
+	min-height: 500px;
+
+
+
+}
+
+
+
+.parallax2 {
+
+
+
+    background-attachment: fixed;
+
+
+
+    background-clip: border-box;
+
+
+
+    background-color: rgba(0, 0, 0, 0);
+
+
+
+    background-image: url("images/slider01.jpg");
+
+
+
+    background-origin: padding-box;
+
+
+
+    background-repeat: repeat;
+
+
+
+    background-size: cover !important;
+
+
+
+    min-height: 500px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+/* Start: style added by hitesh*/
+
+
+
+	.section_icon_container{
+
+
+
+		width:83%;
+
+
+
+		margin:0 auto;
+
+
+
+		padding-bottom:20px;
+
+
+
+		margin-top: 35px;
+
+
+
+		max-width:1113px;	
+
+
+
+	}
+
+
+
+	.section_icon_container .icon_container{
+
+
+
+		float:left;
+
+
+
+		margin-bottom:40px;
+
+
+
+		margin-right:8px;
+
+
+
+	}
+
+
+
+	.section_icon_container .icon_container:last-child{
+
+
+
+		margin-right:0px;
+
+
+
+	}
+
+
+
+	h1.h1_white{
+
+
+
+		color:white !important;
+
+
+
+		margin:0px !important;
+
+
+
+		text-transform:uppercase !important;
+
+
+
+	}
+
+
+
+	h1.h1_logo{
+
+
+
+		text-transform:uppercase !important;
+
+
+
+		font-family: 'Lato', sans-serif !important;
+
+
+
+		font-size: 24px !important;
+
+
+
+		color: #fff;
+
+
+
+		font-weight: bold !important; 
+
+
+
+	}
+
+
+
+	.home_details{
+
+
+
+		font-size: 36px;
+
+
+
+			font-family:'Lato', sans-serif;
+
+
+
+			 font-weight: bold;
+
+
+
+	}
+
+
+
+	.more-info1 {
+
+
+
+		    margin: 0 auto;
+
+
+
+			max-width: 680px;
+
+
+
+			clear: both;
+
+
+
+			padding-top: 50px;
+
+
+
+			text-align: center;
+
+
+
+			padding-bottom: 15px;
+
+
+
+	}
+
+
+
+	.padding_top_nav{
+
+
+
+		padding-top: 50px;
+
+
+
+	}
+
+	.bodge {
+
+    font-size: 18px;
+
+    text-align: justify;
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+/*#dot1 { width:165px!important; }
+
+#dot2 { width:101px!important; }
+
+#dot3 { width:101px!important; }
+
+#dot4 { width:133px!important; }
+
+#dot5 { width:137px!important; }
+
+#dot6 { width:133px!important; }
+
+#dot7 { width:165px!important; }
+
+#dot8 { width:153px!important; }
+
+#dot9 { width:135px!important; }
+
+#dot10 { width:137px!important; }
+
+#dot11 { width:159px!important; }
+
+#dot12 { width:101px!important; }
+
+#dot13{ width:183px!important; }
+
+#dot14 { width:145px!important; }
+
+#dot15{ width:129px!important; }
+
+#dot16{ width:125px!important; }
+
+#dot17{ width:109px!important; }
+
+#dot18 { width:125px!important; }
+
+#dot19 { width:141px!important; }
+
+#dot20 { width:164px!important; }
+
+#dot21 { width:161px!important; }
+
+#dot22 { width:127px!important; }
+
+#dot23 { width:129px!important; }
+
+#dot24 { width:177px!important; }
+
+#dot25 { width:125px!important; }*/
+
+.color-white-bg { color:#FFF; }
+
+
+
+/* End: style added by hitesh*/
+
+
+
+       
+
+
+
